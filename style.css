@@ -10,8 +10,8 @@ h1, h2, h3, div {
 /* Board */
 #board{
   margin: 0 auto;
-  width: 50vw;
-  height: 50vw;
+  width: 45vw;
+  height: 45vw;
 }
 
 #board table{
