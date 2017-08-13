@@ -51,7 +51,7 @@ var ticTacToe = {
   // Add the event onCellClick to every cell in the grid
   setupCellEvents: function () {
 
-    // If cell data-status is empty, 
+    // If cell data-status is empty,
     // 1. Add the class of the player to the cell
     // 2. Add the data-status to the player
     // 3. Switch Player
