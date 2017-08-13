@@ -10,8 +10,8 @@ h1, h2, h3, div {
 /* Board */
 #board{
   margin: 0 auto;
-  width: 90vw;
-  height: 90vw;
+  width: 95vw;
+  height: 95vw;
 }
 
 #board table{
@@ -66,7 +66,16 @@ h1, h2, h3, div {
 
 
 /* Add some responsiveness */
-
+@media only screen and (max-width: 599px) {
+    body{
+      padding: 0px;
+    }
+    #board {
+      width: 95vw;
+      height: 95vw;
+    }
+}
+}
 
 @media only screen and (min-width: 600px) {
     /* For tablets: */
