@@ -10,8 +10,8 @@ h1, h2, h3, div {
 /* Board */
 #board{
   margin: 0 auto;
-  width: 42vw;
-  height: 42vw;
+  width: 90vw;
+  height: 90vw;
 }
 
 #board table{
@@ -61,4 +61,24 @@ h1, h2, h3, div {
   background: url(o.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+
+
+/* Add some responsiveness */
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    #board {
+      width: 64vw;
+      height: 64vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #board {
+      width: 42vw;
+      height: 42vw;
+    }
 }
