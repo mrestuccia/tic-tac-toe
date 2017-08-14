@@ -5,7 +5,7 @@ Notes:
 
 game.js
 - Marks a cell adding a class for X or O. 
-- Once a cell has a class, the click are ignored.
+- Once a cell has a class, clicks are ignored.
 - A data structure (matrix) can be easily added if needed.
 
 style.js

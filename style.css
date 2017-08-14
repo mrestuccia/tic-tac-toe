@@ -50,13 +50,13 @@ h1, h2, h3, div {
 
 /* Cells X and O */
 .X {
-  background: url(x.png);
+  background: url(images/x.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .O { 
-  background: url(o.png);
+  background: url(images/o.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -67,19 +67,30 @@ h1, h2, h3, div {
 
 @media (orientation: landscape){
   #board {
-    width: 95vw;
-    height: 95vw;
+    width: 70vh;
+    height: 70vh;
   }
 }
 
 @media (orientation: portrait){
   #board {
-    width: 95vh;
-    height: 95vh;
+    width: 70vw;
+    height: 70vw;
   }
 }
 
 @media (min-width: 600px) and  (orientation: landscape){
+  /* For tablets: */
+  body {
+    padding: 5px;
+  }
+  #board {
+    width: 64vh;
+    height: 64vh;
+  }
+}
+
+@media (min-width: 600px) and  (orientation: portrait){
   /* For tablets: */
   body {
     padding: 5px;
@@ -98,17 +109,6 @@ h1, h2, h3, div {
   #board {
     width: 42vw;
     height: 42vw;
-  }
-}
-
-@media (min-width: 600px) and  (orientation: portrait){
-  /* For tablets: */
-  body {
-    padding: 5px;
-  }
-  #board {
-    width: 64vh;
-    height: 64vh;
   }
 }
 
