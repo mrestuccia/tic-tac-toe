@@ -10,3 +10,4 @@ game.js
 
 style.js
 - It's using a basic media query just to decide the size of grid of the game.
+- It's using Viewport Height or Viewport Width depending on the orientation.
