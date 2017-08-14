@@ -11,13 +11,11 @@ class TicTacToe {
   // onCellClick
   // If cell data-status is empty, 
   // 1. Add the class of the player to the cell
-  // 2. Add the data-status to the player
-  // 3. Switch Player
+  // 2. Switch Player
   onCellClick(event) {
     let cell = event.srcElement;
 
-    if (cell.getAttribute('data-status') === null) {
-      cell.setAttribute('data-status', this.player);
+    if (cell.className === '') {
       cell.className = this.player;
       this.changePlayer();
     }
