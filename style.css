@@ -10,8 +10,6 @@ h1, h2, h3, div {
 /* Board */
 #board{
   margin: 0 auto;
-  width: 95vw;
-  height: 95vw;
 }
 
 #board table{
@@ -65,63 +63,62 @@ h1, h2, h3, div {
 
 
 
-/* Add some responsiveness */
+/* Added Some Responsiveness */
 
 @media (orientation: landscape){
-    #board {
-      width: 95vw;
-      height: 95vw;
-    }
+  #board {
+    width: 95vw;
+    height: 95vw;
+  }
 }
 
 @media (orientation: portrait){
-    #board {
-      width: 95vh;
-      height: 95vh;
-    }
+  #board {
+    width: 95vh;
+    height: 95vh;
+  }
 }
-
-
 
 @media (min-width: 600px) and  (orientation: landscape){
-    /* For tablets: */
-    body{
-      padding: 5px;
-    }
-    #board {
-      width: 64vw;
-      height: 64vw;
-    }
-}
-@media (min-width: 768px) and (orientation: landscape) {
-    body {
-      padding: 10px;
-    }
-    /* For desktop: */
-    #board {
-      width: 42vw;
-      height: 42vw;
-    }
+  /* For tablets: */
+  body {
+    padding: 5px;
+  }
+  #board {
+    width: 64vw;
+    height: 64vw;
+  }
 }
 
+@media (min-width: 768px) and (orientation: landscape) {
+  /* For desktop: */
+  body {
+    padding: 10px;
+  }
+  #board {
+    width: 42vw;
+    height: 42vw;
+  }
+}
 
 @media (min-width: 600px) and  (orientation: portrait){
-    /* For tablets: */
-    body{
-      padding: 5px;
-    }
-    #board {
-      width: 64vh;
-      height: 64vh;
-    }
+  /* For tablets: */
+  body {
+    padding: 5px;
+  }
+  #board {
+    width: 64vh;
+    height: 64vh;
+  }
 }
+
 @media (min-width: 768px) and (orientation: portrait) {
-    body {
-      padding: 10px;
-    }
-    /* For desktop: */
-    #board {
-      width: 42vh;
-      height: 42vh;
-    }
+  /* For desktop: */
+  body {
+    padding: 10px;
+  }
+  #board {
+    width: 42vh;
+    height: 42vh;
+  }
 }
