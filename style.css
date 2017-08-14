@@ -67,7 +67,23 @@ h1, h2, h3, div {
 
 /* Add some responsiveness */
 
-@media (min-width: 600px) {
+@media (orientation: landscape){
+    #board {
+      width: 95vw;
+      height: 95vw;
+    }
+}
+
+@media (orientation: portrait){
+    #board {
+      width: 95vh;
+      height: 95vh;
+    }
+}
+
+
+
+@media (min-width: 600px) and  (orientation: landscape){
     /* For tablets: */
     body{
       padding: 5px;
@@ -77,7 +93,7 @@ h1, h2, h3, div {
       height: 64vw;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (orientation: landscape) {
     body {
       padding: 10px;
     }
@@ -85,5 +101,27 @@ h1, h2, h3, div {
     #board {
       width: 42vw;
       height: 42vw;
+    }
+}
+
+
+@media (min-width: 600px) and  (orientation: portrait){
+    /* For tablets: */
+    body{
+      padding: 5px;
+    }
+    #board {
+      width: 64vh;
+      height: 64vh;
+    }
+}
+@media (min-width: 768px) and (orientation: portrait) {
+    body {
+      padding: 10px;
+    }
+    /* For desktop: */
+    #board {
+      width: 42vh;
+      height: 42vh;
     }
 }
