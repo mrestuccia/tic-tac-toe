@@ -10,9 +10,8 @@ h1, h2, h3, div {
 /* Board */
 #board{
   margin: 0 auto;
-  width: 95vw;
-  height: 95vw;
-  background-color:red;
+  width: 90vw;
+  height: 90vw;
 }
 
 #board table{
@@ -68,8 +67,9 @@ h1, h2, h3, div {
 
 /* Responsiveness */
 
-@media (min-width: 600px) {
-    /* For tablets: */
+
+/*@media (min-width: 600px) {
+     For tablets: 
     body{
       padding: 5px;
     }
@@ -83,10 +83,25 @@ h1, h2, h3, div {
     body {
       padding: 10px;
     }
-    /* For desktop: */
+     For desktop: 
     #board {
       width: 42vw;
       height: 42vw;
       background-color:violet;
     }
+}*/
+
+
+html { background: yellow; }
+
+@media (min-width: 300px) {
+  html { background: blue; }
+}
+
+@media (min-width: 400px) {
+  html { background: green; }
+}
+
+@media (min-width: 600px) {
+  html { background: red; }
 }
