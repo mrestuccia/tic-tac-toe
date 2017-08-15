@@ -11,3 +11,6 @@ game.js
 style.js
 - It's using a basic media query just to decide the size of grid of the game.
 - It's using Viewport Height or Viewport Width depending on the orientation.
+
+
+Note: this was coded using ES6 without webpack. Will work only in certain browsers such as the latest version of Safari and Chrome.
